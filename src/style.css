@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@theme {
+  --color-charcoal: #2b2d31;
+  --color-gold: #b8934a;
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+body { color: #2b2d31; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
